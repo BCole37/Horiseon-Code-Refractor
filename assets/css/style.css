@@ -1,0 +1,198 @@
+/* sets universal parameters */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Body color */
+body {
+    background-color: #d9dcd6;
+}
+
+/*Header formatting and color */
+.header {
+    padding: 20px;
+    /*The font in descending order if not found on computer so if Trebuchet isnt found move onto Lucida Sans unicode and so on*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Header fromatting and size doesnt require color as universal color applied in body */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* a special color replacement from the universal color for SEO */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*a div tag to hold the ul and formatting the float right is what places it on the right */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Shows how the list will be displayed by defining postioning */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*h2 and h3 here are setting postions and font size for h2 and h3 tags */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px; 
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Text color for the nav links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* font size for the text */
+p {
+    font-size: 16px;
+}
+
+/*Placing the backgorung image of the meeting setting its display settings wtih hieght, width, postion etc. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Image placed on the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Image placed on the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*How the content will be displayed widht what % of screen and an inline block */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*How the aside section will be displayed */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    
+}
+
+/*Spacing and color settings */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*img spacing and size settings */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Section formatting */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Img sizes */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Footer formatting */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*Footer font size */
+.footer h4 {
+    font-size: 20px;
+}

@@ -25,9 +25,11 @@ I learned the importance of Semantic Html and CSS as it clearifies to anyone who
 Just functionality could result in code that is diffcult to edit or share therefore adding time to any project with collaboration or even during the revision process as you might forget all that you were thinking and without comments and clear sections you may have to start over.
 
 # Sources For Help
- Bootcamp spot Module three "https://coding-bootcamp-fsf-prework.readthedocs-hosted.com/en/latest/modules/chapter3/"
+ Bootcamp spot Module three ("https://coding-bootcamp-fsf-prework.readthedocs-hosted.com/en/latest/modules/chapter3/")
 
  
 # ScreenShot
+(./images/ScreenshotforREADME)
 
 # Link
+[Link to the website]("")
